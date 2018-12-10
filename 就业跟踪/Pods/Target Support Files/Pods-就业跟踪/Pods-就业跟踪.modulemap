@@ -1,0 +1,6 @@
+framework module Pods_____ {
+  umbrella header "Pods-就业跟踪-umbrella.h"
+
+  export *
+  module * { export * }
+}

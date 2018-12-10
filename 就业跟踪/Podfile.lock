@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AwesomeMenu (1.0.0)
+  - FSCalendar (2.7.9)
+  - MJRefresh (3.1.15.3)
+  - SnapKit (4.0.0)
+  - SVProgressHUD (2.2.5)
+  - TextFieldEffects (1.4.0)
+  - WMPageController (2.5.2)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AwesomeMenu
+  - FSCalendar
+  - MJRefresh
+  - SnapKit
+  - SVProgressHUD
+  - TextFieldEffects
+  - WMPageController
+  - YYModel
+  - YYText
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AwesomeMenu: 34bad7f873e4b3cfaa6651fabbb96607d0e8f2b3
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 8c771840d9f4cb71024d462fec8f6d2f555060c1
+
+COCOAPODS: 1.4.0

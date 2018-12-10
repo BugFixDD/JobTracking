@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="124" id="3QQ-gJ-AMu" customClass="ETWeeknoteDetailCell" customModule="九江职业技术学院就业跟踪" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3QQ-gJ-AMu" id="Xgo-1e-V5d">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="123.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5S-Od-gEd">
+                        <rect key="frame" x="15" y="15" width="345" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCh-eR-fXx">
+                        <rect key="frame" x="35" y="60" width="325" height="53"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VCh-eR-fXx" firstAttribute="trailing" secondItem="O5S-Od-gEd" secondAttribute="trailing" id="3e5-R8-wSu"/>
+                    <constraint firstAttribute="trailing" secondItem="O5S-Od-gEd" secondAttribute="trailing" constant="15" id="FKu-YL-OiS"/>
+                    <constraint firstItem="O5S-Od-gEd" firstAttribute="top" secondItem="Xgo-1e-V5d" secondAttribute="top" constant="15" id="JZg-8x-zsr"/>
+                    <constraint firstItem="O5S-Od-gEd" firstAttribute="leading" secondItem="Xgo-1e-V5d" secondAttribute="leading" constant="15" id="KTv-yS-I6h"/>
+                    <constraint firstItem="VCh-eR-fXx" firstAttribute="leading" secondItem="O5S-Od-gEd" secondAttribute="leading" constant="20" id="WLo-yq-hyj"/>
+                    <constraint firstItem="VCh-eR-fXx" firstAttribute="top" secondItem="O5S-Od-gEd" secondAttribute="bottom" constant="15" id="WYc-ih-qSp"/>
+                    <constraint firstAttribute="bottom" secondItem="VCh-eR-fXx" secondAttribute="bottom" constant="15" id="k44-HG-6Yj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentContentLbl" destination="VCh-eR-fXx" id="WmI-OP-RGr"/>
+                <outlet property="teacherNameLbl" destination="O5S-Od-gEd" id="M71-TS-lx6"/>
+            </connections>
+            <point key="canvasLocation" x="-63.5" y="52"/>
+        </tableViewCell>
+    </objects>
+</document>

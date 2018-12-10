@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ControllerName</key>
+		<string>NoticeController</string>
+		<key>imgName</key>
+		<string>notice</string>
+		<key>titleName</key>
+		<string>通知</string>
+	</dict>
+	<dict>
+		<key>ControllerName</key>
+		<string>JobInfoTableViewController</string>
+		<key>imgName</key>
+		<string>job</string>
+		<key>titleName</key>
+		<string>招聘</string>
+	</dict>
+	<dict>
+		<key>ControllerName</key>
+		<string>WeeknoteController</string>
+		<key>imgName</key>
+		<string>weeknotelist</string>
+		<key>titleName</key>
+		<string>周记</string>
+	</dict>
+	<dict>
+		<key>ControllerName</key>
+		<string>MyController</string>
+		<key>imgName</key>
+		<string>practice</string>
+		<key>titleName</key>
+		<string>我的</string>
+	</dict>
+</array>
+</plist>
